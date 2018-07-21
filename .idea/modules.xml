@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/seleniumFrameworkGradle.iml" filepath="$PROJECT_DIR$/seleniumFrameworkGradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seleniumFrameworkGradle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/seleniumFrameworkGradle_main.iml" group="seleniumFrameworkGradle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/seleniumFrameworkGradle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/seleniumFrameworkGradle_test.iml" group="seleniumFrameworkGradle" />
+    </modules>
+  </component>
+</project>
