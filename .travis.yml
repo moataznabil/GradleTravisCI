@@ -14,7 +14,4 @@ before_script:
   - sleep 3 # give xvfb some time to start
 
 script:
-
-script:
   - ./gradlew build --continue
-  - ./gradlew build

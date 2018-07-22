@@ -2,6 +2,7 @@ package testcases;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -15,7 +16,9 @@ String baseUrl = "http://www.google.com" ;
 @Test
     public void test()
 {
-    driver = new ChromeDriver();
+
+    System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver");
+    driver = new FirefoxDriver();
     driver.navigate().to(baseUrl);
     Assert.assertTrue(driver.getCurrentUrl().contains("google"));
     System.out.println(driver.getCurrentUrl());
